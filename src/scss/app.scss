@@ -3,3 +3,17 @@ $black: '#000';
 body{
 	background-color: red;
 }
+
+h1{
+	background: yellow;
+	border-radius: 10px;
+	&:hover{
+		transition: color 1s ease;
+		color: red;
+	}
+}
+
+h2:hover{
+		transition: color 1s ease;
+		color: red;
+	}
